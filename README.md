@@ -37,7 +37,7 @@ Loging inside the container
 
 ```netstat -tulpn | grep LISTEN```
 
-You will that one of them in the list will have the open port 80 that was specified as a target port in our yaml file
+You will see that one of them in the list will have the open port 80 that was specified as a target port in our yaml file
 
 Calling ```curl http://0.0.0.0:80``` should output our nginx welcome page
 
