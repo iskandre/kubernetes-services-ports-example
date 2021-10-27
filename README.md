@@ -14,7 +14,7 @@ The service is exposed on the port 8030 so other pods can communicate with this 
 ```kubectl describe pod nginx-welcome-test ```
 
 ### creating a test pod in the same cluster to check the connection inside the cluster
-```kubectl run -i --tty alpine-testpod --image=ubuntu --restart=Never -- sh ```
+```kubectl run -i --tty alpine-testpod --image=python:3.7-alpine --restart=Never -- sh ```
 
 ```pip install requests```
 
